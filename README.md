@@ -35,13 +35,13 @@ https://dev.d2a1ilvgyr7uig.amplifyapp.com/
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    U[User Browser] --> R[React Frontend]
-    R --> A[AWS Amplify]
-    A --> G[API Gateway (REST)]
-    G --> L[AWS Lambda]
-
+React (Frontend)
+↓
+AWS Amplify
+↓
+API Gateway (REST)
+↓
+AWS Lambda
 
 ---
 
